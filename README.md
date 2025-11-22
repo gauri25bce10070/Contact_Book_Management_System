@@ -53,7 +53,7 @@ Test Action	What You Should Check:
 
 - View Contacts:	All previously added contacts should be listed clearly with name, phone, and email.
 
-- Search Contact:	Type a contact name (in upper/lower case). The system should show the matching contact details.
+- Search Contact:	Type a contact name. The system should show the matching contact details.
 
 - Delete Contact:	Enter the name of an existing contact. It should be removed and show “Contact Deleted Successfully!”
 
@@ -69,11 +69,11 @@ Expected Behavior:
 
 # Future improvements
 
-- Add option to update contact
+- Add option to update contact.
   
-- Save contacts permanently using a file
+- Save contacts permanently using a file.
   
-- Add contact category (Family, Friends, work)
+- Add contact category (Family, Friends, work).
 
 # Screenshots
 
