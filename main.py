@@ -1,43 +1,49 @@
-contacts = []   # list to store all contacts
+contacts = []   # empty list to store contacts
 
 def add_contact():
     print("\n--- Add Contact ---")
     name = input("Enter Name: ")
     phone = input("Enter Phone Number: ")
     email = input("Enter Email (optional): ")
-    contacts.append([name, phone, email])
+    contacts.append([name, phone, email])   # store data as list
     print("Contact Added Successfully!")
 
 def view_contacts():
     print("\n--- Contact List ---")
-    if not contacts:   # same as len(contacts)==0
+    if len(contacts) == 0:
         print("No contacts available!")
     else:
         for c in contacts:
-            print(f"Name: {c[0]} | Phone: {c[1]} | Email: {c[0]}")
+            print(f"Name: {c[0]} | Phone: {c[1]} | Email: {c[2]}")
 
 def search_contact():
     print("\n--- Search Contact ---")
     name = input("Enter Name to Search: ")
+    found = False
     for c in contacts:
-        if c[0].lower() == name.lower():   # case-insensitive search
-            print(f"Name: {c[0]} | Phone: {c[1]} | Email: {c[0]}")
-            return
-    print("Contact Not Found!")
+        if c[0] == name:
+            print(f"Name: {c[0]} | Phone: {c[1]} | Email: {c[2]}")
+            found = True
+            break
+    if not found:
+        print("Contact Not Found!")
 
 def delete_contact():
     print("\n--- Delete Contact ---")
     name = input("Enter Name to Delete: ")
+    found = False
     for c in contacts:
-        if c[0].lower() == name.lower():
+        if c[0] == name:
             contacts.remove(c)
+            found = True
             print("Contact Deleted Successfully!")
-            return
-    print("Contact Not Found!")
+            break
+    if not found:
+        print("Contact Not Found!")
 
-# Main Menu
+# Menu
 while True:
-    print("\n===== CONTACT BOOK =====")
+    print("\n===== Contact Book =====")
     print("1. Add Contact")
     print("2. View Contacts")
     print("3. Search Contact")
@@ -55,7 +61,7 @@ while True:
     elif choice == '4':
         delete_contact()
     elif choice == '5':
-        print("Thank You for using Contact Book!")
+        print("Thank You!")
         break
     else:
         print("Invalid Choice! Try Again.")
