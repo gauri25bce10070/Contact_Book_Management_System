@@ -28,11 +28,11 @@ This project covers:
 - No external modules required
 
 # 5. Features Overview
--Add Contact: Stores name, phone, and email 
--View Contacts: Displays all saved contacts 
--Search Contact: Searches by name 
--Delete Contact: Deletes a stored contact 
--Error Handling: Shows messages if contact not found or list is empty 
+- Add Contact: Stores name, phone, and email 
+- View Contacts: Displays all saved contacts 
+- Search Contact: Searches by name 
+- Delete Contact: Deletes a stored contact 
+- Error Handling: Shows messages if contact not found or list is empty 
 
 # 6. Future Enhancements
 This system can be improved further by adding:
