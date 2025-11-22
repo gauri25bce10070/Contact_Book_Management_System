@@ -5,42 +5,42 @@ It lets you add, view, search and delete contacts without any extra software or 
 
 # What this project does
 
--This project works like a basic phonebook.
+- This project works like a basic phonebook.
 
--You can store a contact’s name, phone number and email, and quickly find or remove it when needed.
+- You can store a contact’s name, phone number and email, and quickly find or remove it when needed.
 
--The interface is menu-based and beginner friendly.
+- The interface is menu-based and beginner friendly.
 
 # Features of the project
 
--You can add a new contact
+- You can add a new contact
 
--You can view all saved contact
+- You can view all saved contact
 
--You can search for a contact by name
+- You can search for a contact by name
 
--You can delete a contact
+- You can delete a contact
 
--It is clean and simple to use
+- It is clean and simple to use
 
 # Technologies Used
 
--Python 3
+- Python 3
 
--Basic Python concepts: lists, loops, functions, conditions
+- Basic Python concepts: lists, loops, functions, conditions
 
--No external libraries were used.
+- No external libraries were used.
 
 
 # How to Run the Project
 
--Install Python (if you don’t have it yet)
+- Install Python (if you don’t have it yet)
 Download from: https://www.python.org/downloads/
 
--Save the code into a file, for example:
+- Save the code into a file, for example:
 contact_book.py
 
--Open terminal/command prompt and run:
+- Open terminal/command prompt and run:
 python contact_book.py
 
 # Instructions for testing
@@ -49,23 +49,23 @@ Use the menu options displayed in the program and test the following actions:
 
 Test Action	What You Should Check:
 
--Add Contact:	Enter a name, phone number and email. The system should say “Contact Added Successfully!”
+- Add Contact:	Enter a name, phone number and email. The system should say “Contact Added Successfully!”
 
--View Contacts:	All previously added contacts should be listed clearly with name, phone, and email.
+- View Contacts:	All previously added contacts should be listed clearly with name, phone, and email.
 
--Search Contact:	Type a contact name (in upper/lower case). The system should show the matching contact details.
+- Search Contact:	Type a contact name (in upper/lower case). The system should show the matching contact details.
 
--Delete Contact:	Enter the name of an existing contact. It should be removed and show “Contact Deleted Successfully!”
+- Delete Contact:	Enter the name of an existing contact. It should be removed and show “Contact Deleted Successfully!”
 
--Search/Delete: Non-Existing Contact	Try searching or deleting a name that does not exist. The system should show “Contact Not Found!”
+- Search/Delete: Non-Existing Contact	Try searching or deleting a name that does not exist. The system should show “Contact Not Found!”
 
--Empty List Case:	If no contacts exist, selecting View Contacts should show “No contacts available!”
+- Empty List Case:	If no contacts exist, selecting View Contacts should show “No contacts available!”
 
 Expected Behavior:
 
--The program should not crash even if the user inputs empty or wrong values for names.
+- The program should not crash even if the user inputs empty or wrong values for names.
 
--The menu should reappear after every action until you choose Exit.
+- The menu should reappear after every action until you choose Exit.
 
 # Future improvements
 
