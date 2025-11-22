@@ -70,7 +70,9 @@ Expected Behavior:
 # Future improvements
 
 - Add option to update contact
+  
 - Save contacts permanently using a file
+  
 - Add contact category (Family, Friends, work)
 
 # Screenshots
